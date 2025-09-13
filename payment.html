@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <a href="">
+                <svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M4 42.4379C4 42.4379 14.0962 36.0744 24 41.1692C35.0664 46.8624 44 42.2078 44 42.2078L44 7.01134C44 7.01134 35.068 11.6577 24.0031 5.96913C14.0971 0.876274 4 7.27094 4 7.27094L4 42.4379Z"
+                        fill="#b447eb"></path>
+                </svg>
+                <h1>RailConnect</h1>
+
+            </a>
+
+        </div>
+        <div class="center-nav">
+            <a href="">Home</a>
+            <a href="">My Trips</a>
+            <a href="">Help</a>
+        </div>
+        <div class="right-profile">
+            <img src="images/notification.png" class="not-icon" alt="NotifcationIcon">
+            <img src="images/profile.png" class="pro-icon" alt="profile-picture">
+        </div>
+    </header>
+    <section id="payment">
+        <div class="journey-summary">
+            <h1>Journey Summary</h1>
+            <div class="summary-box">
+                <div class="first atop">
+                    <div class="left">
+                        <h6 class="route">Route</h6>
+                        <span>New Delhi(NDLS)</span>
+                        <span><img src="images/right-arrow (1).png" alt=""></span>
+                        <span>Mumbai(BCT)</span>
+                        <h6>2nd AC,Coach:B4,Seats:45,46,47</h6>
+                    </div>
+                    <div class="right">
+                        <span><img src="images/-train_90433.png" alt=""></span>
+                        <span>Rajadhani Express</span>
+                    </div>
+
+                </div>
+                <div class="center first">
+                    <span class="left">
+                        <h6>Date & Departure</h6>
+                        <h5>Mon, 15 July 2024, 10:00 AM</h5>
+                    </span>
+                    <span class="right">
+                        <h6>Arrival</h6>
+                        <h5>Tue, 16 July 2024, 10:00 PM</h5>
+                    </span>
+
+                </div>
+                <div class="bottom first">
+                    <div class="left">
+                        <h6>Fare</h6>
+                        <h4>$3,500.00</h4>
+                    </div>
+                    <div class="right">
+                        <h6>Total amount to be paid</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="payment-details">
+            <div class="headbox">
+                <h2>Payment Details</h2>
+
+            </div>
+            <div class="PaySelect">
+                <h6>Select Payment Method</h6>
+                <div class="select ">
+                    <div class="active">
+                        <img src="images/credit-card.png" alt="">
+                        <span class="text">Card</span>
+                    </div>
+                    <div><img style="width: 30px;height: 30px;" src="images/icons8-bhim-upi-50.png" alt=""><span
+                            class="text">UPI</span>
+                    </div>
+                    <div>
+                        <img src="images/online-banking.png" style="width: 30px;height: 30px;" alt=""><span
+                            class="text">Net Banking</span>
+                    </div>
+                </div>
+
+            </div>
+            <form class="paydetails">
+                <label for="">CardNumber</label>
+                <input style="padding-left: 32px;position: relative;" type="tel" inputmode="numeric"
+                    pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="19" placeholder="xxxx xxxx xxxx xxxx"
+                    required />
+                <!-- <img src="images/credit-card.png" alt=""> -->
+                <div class="two"><span>
+                        <label for="">Expire Date</label>
+                        <input type="number" required placeholder="MMYY" />
+                    </span>
+                    <span>
+                        <label for="">CVV</label>
+                        <input maxlength="3" required type="number" placeholder="123">
+
+                    </span>
+                </div>
+
+                <label for="">
+                    Cardholder Name
+                </label>
+                <input type="text" required placeholder="Enter Card Holder Name" name="" id="">
+                <input type="submit" value="Pay Now">
+                <div class="hide">
+                    <h2>Congragulation Ticket Booked</h2>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="items">
+            <a href="" style="display: flex;align-items: center;">
+                <svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M4 42.4379C4 42.4379 14.0962 36.0744 24 41.1692C35.0664 46.8624 44 42.2078 44 42.2078L44 7.01134C44 7.01134 35.068 11.6577 24.0031 5.96913C14.0971 0.876274 4 7.27094 4 7.27094L4 42.4379Z"
+                        fill="#ffffff"></path>
+                </svg>
+                <h1>RailConnect</h1>
+
+            </a>
+
+        </div>
+        <div class="items">
+            <h2>Support</h2>
+            <a>Vadakara Villiappally Kozkikode 672542</a>
+            <a href="mailto:exclusive@example.com">railconnect@gmail.com</a>
+            <a href="tel:+9072443960">+9072443960</a>
+        </div>
+        <div class="items">
+            <h2>Account</h2>
+            <a href="">My Account</a>
+            <a href="">Login / Register</a>
+            <a href="">Bookings</a>
+            <a href="">Draft</a>
+        </div>
+        <div class="items">
+            <h2>Quick Link</h2>
+            <a href="">Privacy Policy</a>
+            <a href="">Terms Of Use</a>
+            <a href="">FAQ</a>
+            <a href="">Contact</a>
+
+        </div>
+        <div class="items">
+            <h2>Download App</h2>
+
+            <div class="images">
+                <img src="images/Qrcode.png" style="margin-right: 8px;" alt="qrcode">
+                <div style="display: flex;flex-direction:column">
+                    <img src="images/g.png" style="margin-bottom: 8px;" alt="google playstor">
+                    <img src="images/a.png" alt="apple">
+                </div>
+            </div>
+            <div class="social">
+                <a>
+                    <img src="images/facebook.svg" alt="facebook">
+                </a>
+                <a href="">
+                    <img src="images/twitter.svg" alt="twitter">
+                </a>
+                <a href="">
+                    <img src="images/icon-instagram.svg" alt="instagram">
+                </a>
+                <a href="">
+                    <img src="images/Icon-Linkedin.svg" alt="linkedin">
+                </a>
+
+            </div>
+        </div>
+
+
+
+    </footer>
+</body>
+
+</html>
